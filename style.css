@@ -1367,8 +1367,17 @@ button {
         width: 100%;
     }
 
+    .client-text{
+        width: 100%;
+    }
+
     .testimonial-overlay{
         transform: translateY(-36px) translateX(-12px);
+    }
+
+    .arrow-btn{
+        width: 30px;
+        height: 30px;
     }
 
     .submit-content{
