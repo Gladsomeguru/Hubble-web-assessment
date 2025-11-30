@@ -1278,6 +1278,7 @@ button {
     .top-bar{
         padding: 12px;
         flex-direction: column;
+        display: none;
     }
 
     .top-bar .left{
@@ -1287,7 +1288,7 @@ button {
     }
     .navbar{
         flex-direction: column;
-        padding: 36px 12px;
+        padding: 24px;
         gap: 1rem;
     }
 
@@ -1302,7 +1303,7 @@ button {
 
     .hero{
         flex-direction: column;
-        padding: 36px 12px;
+        padding: 64px 16px;
         gap: 2rem;
     }
 
@@ -1311,11 +1312,15 @@ button {
         aspect-ratio: 3/2;
     }
 
+    .best-house{
+        padding: 64px 0;
+    }
     .filter-row{
         flex-direction: column;
         align-items: center;
         gap: 1rem;
         margin: 0;
+        margin-bottom: 64px;
     }
 
     .search-bar{
@@ -1336,17 +1341,21 @@ button {
     }
 
     .house-grid{
-        padding: 36px 12px;
+        padding: 0px 16px;
         grid-template-columns: auto;
     }
 
+    .popular-category{
+        padding: 64px 0 0;
+    }
+
     .our-properties{
-        padding: 64px 12px;
+        padding: 64px 0;
         margin: 0;
     }
 
     .property-grid{
-        padding: 0px 12px;
+        padding: 0px 16px;
         grid-template-columns: auto;
     }
 
@@ -1355,7 +1364,8 @@ button {
     }
 
     .testimonial-section{
-        padding: 36px 12px;
+        padding: 36px 16px;
+        margin-top: 64px;
     }
 
     .testimonial-container{
@@ -1372,7 +1382,7 @@ button {
     }
 
     .testimonial-overlay{
-        transform: translateY(-36px) translateX(-12px);
+        transform: translateY(-36px) translateX(-16.5px);
     }
 
     .arrow-btn{
@@ -1381,9 +1391,10 @@ button {
     }
 
     .submit-content{
-        padding: 36px 12px;
+        padding: 64px 16px;
         align-items: center;
     }
+
     .submit-title{
         text-align: center;
     }
@@ -1392,11 +1403,11 @@ button {
     }
 
     .best-agents-section{
-        padding: 36px 12px;
+        padding: 64px 16px;
     }
 
     .find-place-container{
-        padding: 36px 12px;
+        padding: 64px 16px;
     }
 
     .call-to-action{
@@ -1405,6 +1416,7 @@ button {
 
     .fp-description{
         width: 100%;
+        padding-bottom: 16px;
     }
 
     .fp-submit-btn{
@@ -1420,22 +1432,26 @@ button {
         flex-wrap: wrap;
     }
     .news-section{
-        padding: 36px 12px;
+        padding: 36px 0px;
     }
     .top-footer{
         flex-direction: column;
         gap: 24px;
-        padding: 36px 12px;
+        padding: 36px 16px;
     }
-
+    .footer-info:last-child{
+        margin-bottom: 0;
+    }
+    
     .footer-content{
-        padding: 12px;
+        padding: 36px 16px;
         grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
     .footer-bottom{
         flex-direction: column;
-        padding: 36px 12px;
+        padding: 36px 16px;
         gap: 1rem;
     }
 }
