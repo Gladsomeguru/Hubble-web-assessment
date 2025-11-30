@@ -1391,7 +1391,7 @@ button {
     }
 
     .testimonial-section {
-        padding: 36px 16px;
+        padding: 64px 16px;
         margin-top: 64px;
     }
 
@@ -1409,7 +1409,7 @@ button {
     }
 
     .testimonial-overlay {
-        transform: translateY(-36px) translateX(-16.5px);
+        transform: translateY(-64px) translateX(-16.5px);
     }
 
     .arrow-btn {
