@@ -1,7 +1,7 @@
 # Hubble-web-assessment
 UI/WordPress Developer Assessment – Hubble Web
 
-This project is a mockup-to-HTML/CSS conversion created for the Hubble Web UI/WordPress Developer Assessment. The design was built completely from scratch using HTML and CSS, based on the images provided for the assignment.
+This project is a mockup-to-HTML/CSS conversion created for the Hubble Web UI/WordPress Developer Assessment. The design was built completely from scratch using HTML, CSS and JS based on the images provided for the assignment.
 
 What’s Included
 
