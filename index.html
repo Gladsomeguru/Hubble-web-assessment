@@ -35,14 +35,17 @@
     <nav class="navbar">
         <div class="logo">
             <img src="images/logo.png" alt="logo" />
+            <button type="button" class="menu-button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
         </div>
 
         <ul class="menu">
-            <li><a href="#">Home <i class="fa-solid fa-plus"></i></a></li>
-            <li><a href="#">Property <i class="fa-solid fa-plus"></i></a></li>
-            <li><a href="#">Pages <i class="fa-solid fa-plus"></i></a></li>
-            <li><a href="#">Blog <i class="fa-solid fa-plus"></i></a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home <i class="fa-solid fa-plus"></i></a></li>
+            <li><a href="#property">Property <i class="fa-solid fa-plus"></i></a></li>
+            <li><a href="#pages">Pages <i class="fa-solid fa-plus"></i></a></li>
+            <li><a href="#blog">Blog <i class="fa-solid fa-plus"></i></a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="nav-right">
@@ -52,7 +55,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-text">
             <h5 class="hero-tag">Real Estate Agency</h5>
 
@@ -257,7 +260,6 @@
         <p class="section-subtitle">We are offering the best real estate</p>
         <h2 class="section-title">Popular Categories</h2>
 
-        <!-- Property Grid -->
         <div class="property-grid">
 
             <div class="property-card">
@@ -313,13 +315,10 @@
         </p>
 
         <div class="testimonial-container">
-
-            <!-- LEFT ARROW -->
             <button class="arrow-btn">
                 <i class="fa-solid fa-arrow-left"></i>
             </button>
 
-            <!-- CARD -->
             <div class="testimonial-card">
 
                 <div class="profile-wrapper">
@@ -343,7 +342,6 @@
                 </div>
             </div>
 
-            <!-- RIGHT ARROW -->
             <button class="arrow-btn">
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
@@ -351,7 +349,7 @@
         </div>
     </section>
 
-    <section class="our-properties">
+    <section class="our-properties" id="property">
         <p class="section-subtitle">Our Properties</p>
         <h2 class="section-title">Our Properties</h2>
 
@@ -744,7 +742,7 @@
         </div>
     </section>
 
-    <section class="news-section">
+    <section class="news-section" id="blog">
         <p class="section-subtitle">Blog & News</p>
         <h2 class="section-title">News Feeds</h2>
 
@@ -826,7 +824,7 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
 
         <div class="top-footer">
             <img src="images/logo.png" alt="logo">
@@ -923,6 +921,14 @@
         </div>
 
     </footer>
+<script>
+    const menuBtn = document.querySelector(".menu-button");
+    const menu = document.querySelector(".menu");
+
+    menuBtn.addEventListener("click", () => {
+        menu.classList.toggle("show-menu");
+    });
+</script>
 
 </body>
 
